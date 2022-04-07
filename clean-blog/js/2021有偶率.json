@@ -1,0 +1,135 @@
+[
+  {
+    "age": "0～15",
+    "male_total": 1500232,
+    "female_total": 1389676,
+    "male": 0,
+    "female": 0
+  },
+  {
+    "age": "15～19",
+    "male_total": 574085,
+    "female_total": 523649,
+    "male": 432,
+    "female": 1524
+  },
+  {
+    "age": "20～24",
+    "male_total": 741685,
+    "female_total": 683039,
+    "male": 14269,
+    "female": 27918
+  },
+  {
+    "age": "25～29",
+    "male_total": 825351,
+    "female_total": 765891,
+    "male": 91093,
+    "female": 139386
+  },
+  {
+    "age": "30～34",
+    "male_total": 819451,
+    "female_total": 766264,
+    "male": 255996,
+    "female": 336693
+  },
+  {
+    "age": "35～39",
+    "male_total": 884401,
+    "female_total": 886781,
+    "male": 439983,
+    "female": 534429
+  },
+  {
+    "age": "40～44",
+    "male_total": 985293,
+    "female_total": 1012869,
+    "male": 576218,
+    "female": 649106
+  },
+  {
+    "age": "45～49",
+    "male_total": 882337,
+    "female_total": 919349,
+    "male": 561887,
+    "female": 592119
+  },
+  {
+    "age": "50～54",
+    "male_total": 873204,
+    "female_total": 904568,
+    "male": 587476,
+    "female": 591100
+  },
+  {
+    "age": "55～59",
+    "male_total": 886769,
+    "female_total": 927991,
+    "male": 632000,
+    "female": 617229
+  },
+  {
+    "age": "60～64",
+    "male_total": 813629,
+    "female_total": 869767,
+    "male": 614320,
+    "female": 572088
+  },
+  {
+    "age": "65～69",
+    "male_total": 696974,
+    "female_total": 768486,
+    "male": 548830,
+    "female": 474633
+  },
+  {
+    "age": "70～74",
+    "male_total": 476519,
+    "female_total": 546437,
+    "male": 383032,
+    "female": 292210
+  },
+  {
+    "age": "75～79",
+    "male_total": 256442,
+    "female_total": 319156,
+    "male": 202477,
+    "female": 136815
+  },
+  {
+    "age": "80～84",
+    "male_total": 192117,
+    "female_total": 268252,
+    "male": 139942,
+    "female": 83589
+  },
+  {
+    "age": "85～89",
+    "male_total": 102595,
+    "female_total": 155913,
+    "male": 62605,
+    "female": 28619
+  },
+  {
+    "age": "90～94",
+    "male_total": 52177,
+    "female_total": 68318,
+    "male": 27678,
+    "female": 5644
+  },
+  {
+    "age": "95～99",
+    "male_total": 13336,
+    "female_total": 17573,
+    "male": 5951,
+    "female": 627
+  },
+  {
+    "age": "100+",
+    "male_total": 2099,
+    "female_total": 2639,
+    "male": 774,
+    "female": 94
+  }
+]
