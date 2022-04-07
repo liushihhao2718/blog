@@ -2,11 +2,11 @@
   "name": "map",
   "version": "1.0.0",
   "description": "",
-  "source": "clean-blog/post.html",
+  "source": "clean-blog/Why-I-can-t-get-a-girl-friend.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build clean-blog/post.html --no-source-maps"
+    "build": "parcel build clean-blog/Why-I-can-t-get-a-girl-friend.html --no-source-maps"
   },
   "author": "",
   "license": "ISC",
