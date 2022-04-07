@@ -2,11 +2,11 @@
   "name": "map",
   "version": "1.0.0",
   "description": "",
-  "source":"clean-blog/post.html",
+  "source": "clean-blog/post.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build clean-blog/post.html --no-source-maps"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +16,8 @@
     "topojson-client": "^3.1.0"
   },
   "devDependencies": {
-    "parcel": "^2.0.1"
+    "cssnano": "^5.1.7",
+    "parcel": "^2.0.1",
+    "postcss": "^8.4.12"
   }
 }
