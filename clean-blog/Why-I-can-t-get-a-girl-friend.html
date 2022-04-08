@@ -19,7 +19,20 @@
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js"
         integrity="sha384-0fdwu/T/EQMsQlrHCCHoH10pkPLlKA1jL5dFyUOvB3lfeT2540/2g6YgSi2BL14p"
         crossorigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y61PER9YMQ"></script>
+    <script>
 
+        var host = window.location.hostname;
+        if (host != "localhost") {
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'G-Y61PER9YMQ');
+        }
+
+    </script>
     <!-- To automatically render math in text elements, include the auto-render extension: -->
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js"
         integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
@@ -80,8 +93,7 @@
             </div>
         </nav> -->
     <!-- Page Header-->
-    <header class="masthead"
-        style="background-image: url(./assets/img/city-g6ff06984b_1920.jpg)">
+    <header class="masthead" style="background-image: url(./assets/img/city-g6ff06984b_1920.jpg)">
         <div class="container position-relative px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
@@ -106,8 +118,7 @@
 
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <p>我閱讀了兩篇關於為什麼找不到女朋友的論文
-                        <a
-                            href="https://www.are.na/block/1995875">[1]</a>
+                        <a href="https://www.are.na/block/1995875">[1]</a>
                         <a href="https://logological.org/girlfriend">[2]</a>，
                         下面會簡略的介紹兩位交不到女友的論文作者們，各自計算潛在的女友數量的方式，最終給出我個人的計算方式，以及可調整參數的計算機。
                     </p>
@@ -217,11 +228,12 @@
                             <br>
                             <p><strong>外表漂亮的人 1487838</strong></p>
                             <p> 因為漂亮是一種主觀意識，難以定義，幸好我們可以假設人的外表漂亮程度應該屬於常態分佈，作者認為非常漂亮的人，應該高於兩個標準差</p>
-                            $$\frac{1}{2}-\frac{1}{\sqrt{2\pi}} \cdot \int_0^2    e^{ -\frac{1}{2} z^2}    \,dz \approx 0.2275$$
+                            $$\frac{1}{2}-\frac{1}{\sqrt{2\pi}} \cdot \int_0^2 e^{ -\frac{1}{2} z^2} \,dz \approx
+                            0.2275$$
                             <p> 即z&gt;=2的面積大約等於 0.02275</p>
                             <p style="overflow-x: scroll;"> $$65399083 \times 0.022750131438884387 = 1487838$$</p>
                             <p class="text-secondary" style="font-size: 12px;">因為原文只取五位與他的計算結果實在差太多了，我用了多一點位數</p>
-<br>
+                            <br>
                             <p><strong>聰明 236053</strong></p>
                             <p> 聰明也可能意味著個人的主觀意識，但還是可以用常態分佈來描述，作者假設他可以接受高於一個標準差的人15.8655%</p>
                             $$1487838 \times 0.158655 = 236053$$
@@ -231,7 +243,7 @@
                             <br>
                             <p><strong>她也喜歡我 18726</strong></p>
                             <p> 根據前面的討論，個人吸引力可以用常態分佈來看待，作者認為當女生覺得對象比平均高一個標準差的時候，願意跟他出去約會，即 15.8655%</p>
-                            
+
                             $$118027 \times 0.158655 = 18726$$
 
                             結論：在我找到夢寐以求的女孩之前，我已經死了。想一想，她可能也死了。
@@ -357,7 +369,8 @@
                     <p class="section-heading">結論</p>
                     <p>最終結果：我的潛在女友數量是少得可憐的<strong>13</strong>人，與各篇參考文獻中的結論相同，我將永遠不可能交到女友。
                         <br>
-                        <br>讀者可以透過修改上面的數字來計算自己的可能人數。</p>
+                        <br>讀者可以透過修改上面的數字來計算自己的可能人數。
+                    </p>
                 </div>
 
             </div>
