@@ -1,4 +1,4 @@
-function dedent(templateStrings, ...values) {
+export function dedent(templateStrings, ...values) {
   let matches = []
   let strings =
     typeof templateStrings === "string"

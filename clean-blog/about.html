@@ -48,6 +48,9 @@
         .markdown-body ul {
             margin-bottom: 8px;
         }
+        .markdown-body ul>p {
+            padding-left: 8px;
+        }
     </style>
 </head>
 
@@ -73,7 +76,7 @@
     <!-- Page Header-->
     <header class="masthead" style="background-image: url('assets/img/about-bg.jpg')">
         <div class="container position-relative px-4 px-lg-5">
-            <div class="gx-4 gx-lg-5 justify-content-center">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <div class="page-heading">
                         <h1>About Me</h1>
@@ -132,7 +135,7 @@
         
         - Art blackhole
         
-                製作首頁與廠商的NFT市集對接
+         製作首頁與廠商的NFT市集對接
         
         - Asus NFT Plaza
           
@@ -153,7 +156,6 @@
           - 閱讀 RFC 文件(http, ftp, tls1.2等)
         - icash
           
-        
         ​ 進行icash對聯合信用卡中心的介接
         
         ​ 開發icash自動販賣機的感應交易部分，包括自動更新，更新金鑰，購買等功能
@@ -177,7 +179,7 @@
     <!-- Main Content-->
     <main class="mb-4">
         <div class="container px-0 px-sm-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center markdown-body" id="content">
+            <div class="gx-4 gx-lg-5 justify-content-center markdown-body" id="content">
             </div>
         </div>
     </main>
@@ -220,9 +222,9 @@
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-    <script src="js/dedent.js"></script>
-    <script>
+    <script src="./js/scripts.js"></script>
+    <script type="module" defer>
+        import {dedent} from "./js/dedent"
         const markdown_content =
             dedent(document.getElementById('markdown_content').innerText)
                 

@@ -6,7 +6,7 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build clean-blog/Why-I-can-t-get-a-girl-friend.html --no-source-maps"
+    "build": "parcel build --no-source-maps --dist-dir docs"
   },
   "author": "",
   "license": "ISC",
