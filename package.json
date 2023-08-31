@@ -6,7 +6,9 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build --no-source-maps --dist-dir docs"
+    "dev": "vite clean-blog",
+    "build": "vite build clean-blog --outDir docs",
+    "preview": "vite preview"
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +20,8 @@
   "devDependencies": {
     "cssnano": "^5.1.7",
     "parcel": "^2.0.1",
-    "postcss": "^8.4.12"
+    "postcss": "^8.4.12",
+    "vite": "^4.4.9"
+
   }
 }
