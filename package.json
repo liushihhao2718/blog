@@ -2,7 +2,7 @@
   "name": "map",
   "version": "1.0.0",
   "description": "",
-  "source": "clean-blog/Why-I-can-t-get-a-girl-friend.html",
+  "source": "clean-blog/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel",
