@@ -6,7 +6,7 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && rm -rf docs/* && cp -r clean-blog/dist/* docs",
     "preview": "vite preview clean-blog"
   },
   "author": "",
