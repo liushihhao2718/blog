@@ -5,10 +5,9 @@
   "source": "clean-blog/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "start": "parcel",
-    "dev": "vite clean-blog",
-    "build": "vite build clean-blog --outDir docs",
-    "preview": "vite preview"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview clean-blog"
   },
   "author": "",
   "license": "ISC",
@@ -19,9 +18,7 @@
   },
   "devDependencies": {
     "cssnano": "^5.1.7",
-    "parcel": "^2.0.1",
     "postcss": "^8.4.12",
     "vite": "^4.4.9"
-
   }
 }
