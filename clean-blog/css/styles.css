@@ -237,7 +237,7 @@ sup {
 
 a {
   /* color: #212529; */
-  /* text-decoration: none; */
+  text-decoration: none;
 }
 a:hover {
   color: #0085A1;
@@ -11230,6 +11230,7 @@ header.masthead .site-heading .h1 {
 }
 .post-preview > a > .post-subtitle {
   font-weight: 300;
+  font-size: 1.3rem;
   margin-bottom: 0.625rem;
 }
 .post-preview > .post-meta {
