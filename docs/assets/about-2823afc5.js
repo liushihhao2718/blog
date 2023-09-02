@@ -1,4 +1,4 @@
-# 劉士豪 Tom Liu
+import"./styles-0583564f.js";const n=`# 劉士豪 Tom Liu
 
 4年網頁後端開發經驗，主要工作為提供Restful API，輔助網頁前端開發，智能合約功能串接
 
@@ -80,4 +80,4 @@
 
 - iOS
 
-  維護高鐵櫃檯使用APP，主要功能為與刷卡機進行藍芽連線
+  維護高鐵櫃檯使用APP，主要功能為與刷卡機進行藍芽連線`;document.getElementById("content").innerHTML=marked.parse(n);
