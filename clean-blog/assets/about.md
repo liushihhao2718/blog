@@ -41,13 +41,9 @@
   ​ 一個提供Jupyter Notebook介面，出租機台GPU算力的網頁服務
   主要開發 會員系統、調用廠商機台API，進行機台壓力測試、黑白箱安全性檢測，金流系統串接(stripe)、管理人員後台
 
-- Art blackhole
-
-  製作首頁與廠商的NFT市集對接
-
 - Asus NFT Plaza
 
-  NFT交易平台，使用Opensea Seaport交易合約搭建，包括上架、交換、拍賣NFT等功能。發行ROG顯卡NFT、與其他廠商NFT
+  NFT交易平台，使用Opensea Seaport交易合約搭建，包括上架、交換、拍賣 NFT等功能。發行ROG Matrix顯卡NFT、與其他廠商NFT
   
   智能合約輔助工具：ABI decode tool、contract deploy tool
 
@@ -59,7 +55,7 @@
 
 - 技術
   -  ANSI C
-  - 閱讀 RFC 文件(http, ftp, tls1.2等)
+  - 閱讀 RFC 文件(http, ftp, tls1.2交握等)
 
 - icash
 
@@ -76,7 +72,7 @@
 
 - FTPS
 
-  獨立修復聯合信用卡中心採購ftp軟體後，所有刷卡機有下載中斷的問題，由ftps層開始盤查，經過AP層、openssl、tcp層、最後在ip層修復下載問題
+  獨立修復聯合信用卡中心採購ftp軟體後，所有刷卡機下載發生中斷的問題，由ftps層開始盤查，經過應用層、openssl、tcp層、最後在ip層修復下載問題
 
 - iOS
 
