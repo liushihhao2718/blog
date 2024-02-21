@@ -21,33 +21,33 @@
 
 ## **華碩電腦** 2019 -
 
-- 技能
+- **技能**
   
   - **AWS:** ​ Cloudfront, API Gateway、S3、Lambda、Cognito、EC2等
     
-  - **前端** ​ jQuery、lighterhtml、Vue3、Bootstrap5、Element plus
-    
-  - **Web3**  ethers.js、hardhat、solidity
+  - **前端** ​ TypeScript、Vue3、Bootstrap5、Element plus
     
   - **後端開發** Node.js、Express、MySQL
+
+  - **Web3**  ethers.js、hardhat、solidity
     
-- Quantumcloud
-
-  方便使用者於自家桌機挖礦的桌面軟體
-  維護網頁、OAuth、edm送信
-
-- AI/ML
-
-  ​ 一個提供Jupyter Notebook介面，出租機台GPU算力的網頁服務
-  主要開發 會員系統、調用廠商機台API，進行機台壓力測試、黑白箱安全性檢測，金流系統串接(stripe)、管理人員後台
-
-- Asus NFT Plaza
+- **Asus NFT Plaza**
 
   NFT交易平台，使用Opensea Seaport交易合約搭建，包括上架、交換、拍賣 NFT等功能。發行ROG Matrix顯卡NFT、與其他廠商NFT
   
   智能合約輔助工具：ABI decode tool、contract deploy tool
 
-- 其他
+- **AI/ML**
+
+  ​ 一個提供Jupyter Notebook介面，出租機台GPU算力的網頁服務
+  主要開發 會員系統、調用廠商機台API，進行機台壓力測試、黑白箱安全性檢測，金流系統串接(stripe)、管理人員後台
+
+- **Quantumcloud**
+
+  方便使用者於自家桌機挖礦的桌面軟體
+  維護網頁、OAuth、edm送信
+
+- **其他**
 
   mqtt、react native、electron、webrtc
 

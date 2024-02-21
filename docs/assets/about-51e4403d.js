@@ -21,37 +21,33 @@ import"./styles-0583564f.js";const n=`# 劉士豪 Tom Liu
 
 ## **華碩電腦** 2019 -
 
-- 技能
+- **技能**
   
   - **AWS:** ​ Cloudfront, API Gateway、S3、Lambda、Cognito、EC2等
     
-  - **前端** ​ jQuery、lighterhtml、Vue3、Bootstrap5、Element plus
-    
-  - **Web3**  ethers.js、hardhat、solidity
+  - **前端** ​ TypeScript、Vue3、Bootstrap5、Element plus
     
   - **後端開發** Node.js、Express、MySQL
+
+  - **Web3**  ethers.js、hardhat、solidity
     
-- Quantumcloud
+- **Asus NFT Plaza**
 
-  方便使用者於自家桌機挖礦的桌面軟體
-  維護網頁、OAuth、edm送信
+  NFT交易平台，使用Opensea Seaport交易合約搭建，包括上架、交換、拍賣 NFT等功能。發行ROG Matrix顯卡NFT、與其他廠商NFT
+  
+  智能合約輔助工具：ABI decode tool、contract deploy tool
 
-- AI/ML
+- **AI/ML**
 
   ​ 一個提供Jupyter Notebook介面，出租機台GPU算力的網頁服務
   主要開發 會員系統、調用廠商機台API，進行機台壓力測試、黑白箱安全性檢測，金流系統串接(stripe)、管理人員後台
 
-- Art blackhole
+- **Quantumcloud**
 
-  製作首頁與廠商的NFT市集對接
+  方便使用者於自家桌機挖礦的桌面軟體
+  維護網頁、OAuth、edm送信
 
-- Asus NFT Plaza
-
-  NFT交易平台，使用Opensea Seaport交易合約搭建，包括上架、交換、拍賣NFT等功能。發行ROG顯卡NFT、與其他廠商NFT
-  
-  智能合約輔助工具：ABI decode tool、contract deploy tool
-
-- 其他
+- **其他**
 
   mqtt、react native、electron、webrtc
 
@@ -59,7 +55,7 @@ import"./styles-0583564f.js";const n=`# 劉士豪 Tom Liu
 
 - 技術
   -  ANSI C
-  - 閱讀 RFC 文件(http, ftp, tls1.2等)
+  - 閱讀 RFC 文件(http, ftp, tls1.2交握等)
 
 - icash
 
@@ -76,7 +72,7 @@ import"./styles-0583564f.js";const n=`# 劉士豪 Tom Liu
 
 - FTPS
 
-  獨立修復聯合信用卡中心採購ftp軟體後，所有刷卡機有下載中斷的問題，由ftps層開始盤查，經過AP層、openssl、tcp層、最後在ip層修復下載問題
+  獨立修復聯合信用卡中心採購ftp軟體後，所有刷卡機下載發生中斷的問題，由ftps層開始盤查，經過應用層、openssl、tcp層、最後在ip層修復下載問題
 
 - iOS
 
