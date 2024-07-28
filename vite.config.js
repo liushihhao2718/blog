@@ -12,7 +12,8 @@ export default {
         main: './clean-blog/index.html',
         about: './clean-blog/about.html',
         hardhat: './clean-blog/hardhat.html',
-        'Why-I-can-t-get-a-girl-friend':'./clean-blog/Why-I-can-t-get-a-girl-friend/Why-I-can-t-get-a-girl-friend.html'
+        'Why-I-can-t-get-a-girl-friend':'./clean-blog/Why-I-can-t-get-a-girl-friend/Why-I-can-t-get-a-girl-friend.html',
+        'what-is-nft':'./clean-blog/what-is-nft.html'
       }
     }
   }
